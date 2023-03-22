@@ -1,29 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Lora:wght@700&family=Roboto&display=swap');
 
+/* Nav Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
 }
+
 .header {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border-bottom: 1px solid black;
     /* background-color: aquamarine; */
-}
-.header .menu_list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: inline-block;
-}
-.header .menu_list li {
-    display: inline;
-    margin: 20px;
-}
-.header_logo {
-    display: inline-block;
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid black;
 }
 .logo {
     font-family: 'Cairo';
@@ -31,10 +26,17 @@ body {
     font-size: 28px;
     color: #000000;
 }
-.header .header-button {
-    position: absolute;
-    display:inline;
-    margin: 30px;
+.header .menu_list {
+    list-style: none;
+}
+.header .menu_list li {
+    display: inline;
+    margin: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 13px;
+    line-height: 125%;
 }
 .sign-in {
     border: 1px solid purple;
@@ -48,90 +50,6 @@ body {
     padding: 10px 20px;
     color: white;
 }
-.menu_list {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 125%;
-}
-
-
-
-
-
-
-
-.hero .hero_content h2 {
-    font-family: lora;
-}
-.hero .hero-image img {
-    width: 400px;
-    height: 400px;
-    border-radius: 0px 0px 50px 50px;
-}
-.frame-2 h2 {
-    font-family: lora;
-}
-.frame-2 {
-    background-color: #FDF8F5;
-}
-.frame-2 .frame-2-image img {
-    width: 400px;
-    height: 400px;
-    border-radius: 0px 130px 130px 0px;
-}
-.frame-2 button {
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
-}
-
-
-
-
-/* .frame-3 .service-item {
-    float: left;
-    width: 200px;
-    padding: 20px 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    background-color: #fff;
-}
-.frame-3 .service-item .item-desc {
-    font-family: lora;
-    color: #888;
-    padding: 0 25px;
-}
-.frame-3 .service-item .item-title {
-    margin: 20px 0 20px 0;
-    font-size: 23px;
-    font-weight: 1 500;
-}
-.frame-3 .services-item .icon {
-    font-size: 50px;
-} */
-
-.frame-6 {
-    background-color: #FDF8F5;
-}
-.frame-6 .frame-6-content button {
-    padding: 7px;
-    border: 1px solid purple;
-    background-color: white;
-    border-radius: 20px;
-}
-.frame-6 .frame-6-image img {
-    width: 400px;
-    height: 400px;
-    border-radius: 130px 0px 0px 130px;
-}
-
-.frame-7-form button {
-    background-color: #EF8354;
-    border: none;
-    padding: 7px;
-    width: 90px;
-    border-radius: 20px;
+.sign_in, .register {
+    margin: 0px 30px;
 }
