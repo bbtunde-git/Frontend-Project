@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Lora:wght@700&family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Lora:wght@700&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 /* Nav Styling */
 
 * {
@@ -38,11 +42,13 @@ body {
     font-weight: 550;
     font-size: 13px;
     line-height: 125%;
+    cursor: pointer;
 }
 .sign-in {
     border: 1px solid purple;
     border-radius: 50px;
     padding: 10px 20px;
+    cursor: pointer;
 }
 .register {
     border: none;
@@ -50,7 +56,181 @@ body {
     border-radius: 50px;
     padding: 10px 20px;
     color: white;
+    cursor: pointer;
 }
-/* .sign_in, .register {
-    margin: 0px 30px;
-} */
+.sign-in {
+    cursor: pointer;
+    margin: 0px 15px 0px 0px;
+}
+.register {
+    cursor: pointer;
+    margin: 0px 0px 0px 15px;
+}
+/* Hero Section Styling */
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+.hero-image img {
+    width: 605px;
+    height: 521px;
+    border-radius: 0px 0px 40px 40px;
+}
+.hero_content h2 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    margin: 80px 50px 0px 50px;
+}
+.hero_content p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0px 50px 0px 50px;
+}
+
+/* About Section Styling */
+.frame-2 {
+    background-color: #fdf8f5;
+
+}
+.frame-2, h2, .frame-2-image {
+    display: flex;
+    flex-direction: column;
+}
+.frame-2 h2 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    margin: 30px 0px 30px 70px;
+}
+.frame-2-image img {
+    width: 604px;
+    height: 515px;
+    left: 0px;
+    top: 148px;
+    border-radius: 0px 200px 200px 0px; 
+}
+.frame-2 p {
+    color: blue;
+    width: 500px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.frame-2 .frame-2-button {
+    width: 100px;
+    height: 35px;
+    left: 1155px;
+    top: 522px;
+    background: #F5F4F7;
+    border: none;
+    border-radius: 50px;
+}
+
+/*Service Section Styling*/
+.frame-3 h2 {
+    width: 247px;
+    height: 50px;
+    left: 103px;
+    top: 42px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    margin: 30px 0px 90px 70px;
+
+}
+.frame-3 .frame-3-container {
+    display: flex;
+    flex-direction: row;
+}
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    margin-left: 63px;
+    margin-bottom: 50px;
+    gap: 20px;
+    width: 250px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(177, 177, 177, 0.25);
+    border-radius: 5px;
+}
+.service-item h3 {
+    width: 174px;
+    height: 30px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    text-align: center;
+    color: #1B1B1B;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.service-item p {
+    width: 234px;
+    height: 99px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #474747;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+/* Popular Boob Section Styling*/
+
+.frame-4 {
+background-color: #FDF8F5;
+}
+.frame-4-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.frame-4-content-1 img {
+    width: 345px;
+    height: 401px;
+}
+.frame-4-content-2 img {
+    width: 345px;
+    height: 401px;
+}
+.frame-4-content-3 img {
+    width: 345px;
+    height: 401px;
+}
+.frame-4 h2 {
+    width: 403px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #1B1B1B;
+    margin: 50px 0px 90px 70px;
+
+}
