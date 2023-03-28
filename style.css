@@ -234,3 +234,108 @@ background-color: #FDF8F5;
     margin: 50px 0px 90px 70px;
 
 }
+
+/* Frame-6 Styling */
+.frame-6 {
+    display: flex;
+    flex-direction: row;
+    background-color: #FDF8F5;
+}
+.frame-6-image img {
+    width: 604px;
+    height: 515px;
+    margin-left: 130px;
+    border-radius: 200px 0px 0px 200px;
+}
+.frame-6-content {
+    margin: 100px 0px 0px 50px;
+}
+.frame-6-content h2 {
+    width: 561px;
+    height: 144px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    color: #1B1B1B;
+}
+.frame-6-content .button p {
+    border: 1px solid blue;
+    background-color: #fdf8f5;
+    border-radius: 150px;
+}
+.frame-6-content p {
+    width: 479px;
+    height: 81px;
+    left: 104px;
+    top: 284px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #474747;
+}
+.frame-6-content button {
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.frame-7-container {
+    display: flex;
+    flex-direction: column;
+}
+.frame-7-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.frame-7-container h2 {
+    margin: 50px 0px 0px 30px;
+    width: 450px;
+}
+
+/* .frame-7-container h2 {
+    width: 205px;
+    height: 50px;
+    left: 103px;
+    top: 42px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #1B1B1B;
+} */
+
+/* Footer styling */
+
+.footer{
+    background-color: #282828;
+    padding: 20px;
+}
+.footer-content-1, .footer-content-2, .footer-content-3, .footer-content-4 {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer ul {
+    list-style: none;
+}
+.footer h3 {
+    margin-bottom: 20px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125%;
+    color: #F6F6F6;
+}
+.footer-content-4 {
+    flex-basis: 20%;
+}
