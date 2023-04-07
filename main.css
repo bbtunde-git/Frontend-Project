@@ -70,8 +70,8 @@ body {
 .hero-image img {
     display: flex;
     justify-content: flex-end;
-    width: 600px;
-    height: 520px;
+    width: 705px;
+    height: 621px;
     border-radius: 0px 0px 50px 50px;
 }
 .hero-content h2 {
@@ -94,8 +94,8 @@ body {
     background-color: #fdf8f5;
 }
 .section2-image img {
-    width: 600px;
-    height: 520px;
+    width: 604px;
+    height: 615px;
     border-radius: 0px 200px 200px 0px;
 }
 .section2-image h2 {
@@ -133,23 +133,23 @@ body {
     padding: 100px 0px 100px 0px;
 }
 .service-column-1 {
-    width: 250px;
-    height: 250px;
+    width: 345px;
+    height: 401px;
     background-color: #fff;
 }
 .service-column-2 {
-    width: 250px;
-    height: 250px;
+    width: 345px;
+    height: 401px;
     background-color: #fff;
 }
 .service-column-3 {
-    width: 250px;
-    height: 250px;
+    width: 345px;
+    height: 401px;
     background-color: #fff;
 }
 .service-column-4 {
-    width: 250px;
-    height: 250px;
+    width: 345px;
+    height: 401px;
     background-color: #fff;
 }
 
@@ -191,8 +191,8 @@ body {
     padding-bottom: 80px;
 }
 .category-contents img {
-    width: 180px;
-    height: 250px;
+    width: 183px;
+    height: 259px;
 }
 .content-text {
     font-family: roboto;
@@ -249,8 +249,8 @@ body {
     border-radius: 50px;
 }
 .library-image img {
-    width: 600px;
-    height: 580px;
+    width: 708px;
+    height: 615px;
     border-radius: 200px 0px 0px 200px;
 }
 
